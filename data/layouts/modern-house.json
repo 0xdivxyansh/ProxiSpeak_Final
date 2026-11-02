@@ -1,0 +1,398 @@
+{
+  "layoutId": "modern-house-layout",
+  "name": "Luxury 3D Smart House",
+  "description": "Fully furnished luxury residence featuring Master Bedroom, Guest Bedroom, Gourmet Kitchen, Dining Room, Living Room, Home Office, and Bathroom with spatial audio occlusion.",
+  "dimensions": {
+    "width": 1600,
+    "height": 1000
+  },
+  "spawnPoint": {
+    "x": 800,
+    "y": 860
+  },
+  "furniture": [
+    {
+      "id": "wall_living_west",
+      "type": "wall",
+      "label": "West House Exterior Wall",
+      "x": 60,
+      "y": 60,
+      "width": 20,
+      "height": 880,
+      "isSolid": true,
+      "isAcousticObstacle": true,
+      "color": "#334155"
+    },
+    {
+      "id": "wall_house_north",
+      "type": "wall",
+      "label": "North House Exterior Wall",
+      "x": 60,
+      "y": 60,
+      "width": 1480,
+      "height": 20,
+      "isSolid": true,
+      "isAcousticObstacle": true,
+      "color": "#334155"
+    },
+    {
+      "id": "wall_house_east",
+      "type": "wall",
+      "label": "East House Exterior Wall",
+      "x": 1520,
+      "y": 60,
+      "width": 20,
+      "height": 880,
+      "isSolid": true,
+      "isAcousticObstacle": true,
+      "color": "#334155"
+    },
+    {
+      "id": "wall_house_south_left",
+      "type": "wall",
+      "label": "South Entrance Wall Left",
+      "x": 60,
+      "y": 920,
+      "width": 680,
+      "height": 20,
+      "isSolid": true,
+      "isAcousticObstacle": true,
+      "color": "#334155"
+    },
+    {
+      "id": "wall_house_south_right",
+      "type": "wall",
+      "label": "South Entrance Wall Right",
+      "x": 860,
+      "y": 920,
+      "width": 680,
+      "height": 20,
+      "isSolid": true,
+      "isAcousticObstacle": true,
+      "color": "#334155"
+    },
+
+    {
+      "id": "wall_bedroom_master_south",
+      "type": "wall",
+      "label": "Master Bedroom Wall Left",
+      "x": 80,
+      "y": 420,
+      "width": 380,
+      "height": 20,
+      "isSolid": true,
+      "isAcousticObstacle": true,
+      "color": "#475569"
+    },
+    {
+      "id": "wall_bedroom_master_east",
+      "type": "wall",
+      "label": "Master Bedroom Wall East",
+      "x": 540,
+      "y": 80,
+      "width": 20,
+      "height": 360,
+      "isSolid": true,
+      "isAcousticObstacle": true,
+      "color": "#475569"
+    },
+
+    {
+      "id": "wall_office_west",
+      "type": "wall",
+      "label": "Home Office Wall West",
+      "x": 1100,
+      "y": 80,
+      "width": 20,
+      "height": 360,
+      "isSolid": true,
+      "isAcousticObstacle": true,
+      "color": "#475569"
+    },
+    {
+      "id": "wall_office_south",
+      "type": "wall",
+      "label": "Home Office Wall South",
+      "x": 1100,
+      "y": 420,
+      "width": 320,
+      "height": 20,
+      "isSolid": true,
+      "isAcousticObstacle": true,
+      "color": "#475569"
+    },
+
+    {
+      "id": "wall_kitchen_partition",
+      "type": "acoustic_partition",
+      "label": "Kitchen Acoustic Divider",
+      "x": 1050,
+      "y": 500,
+      "width": 20,
+      "height": 300,
+      "isSolid": true,
+      "isAcousticObstacle": true,
+      "color": "#38bdf8"
+    },
+
+    {
+      "id": "master_bed",
+      "type": "bed",
+      "label": "Master King Bed",
+      "x": 140,
+      "y": 140,
+      "width": 160,
+      "height": 180,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#6366f1"
+    },
+    {
+      "id": "master_nightstand_1",
+      "type": "desk",
+      "label": "Nightstand Left",
+      "x": 90,
+      "y": 140,
+      "width": 40,
+      "height": 40,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#78350f"
+    },
+    {
+      "id": "master_nightstand_2",
+      "type": "desk",
+      "label": "Nightstand Right",
+      "x": 310,
+      "y": 140,
+      "width": 40,
+      "height": 40,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#78350f"
+    },
+    {
+      "id": "master_wardrobe",
+      "type": "bookshelf",
+      "label": "Walk-in Wardrobe",
+      "x": 380,
+      "y": 100,
+      "width": 140,
+      "height": 50,
+      "isSolid": true,
+      "isAcousticObstacle": true,
+      "color": "#451a03"
+    },
+
+    {
+      "id": "guest_bed",
+      "type": "bed",
+      "label": "Guest Bedroom Bed",
+      "x": 680,
+      "y": 140,
+      "width": 130,
+      "height": 160,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#a855f7"
+    },
+    {
+      "id": "guest_dresser",
+      "type": "bookshelf",
+      "label": "Dresser",
+      "x": 840,
+      "y": 100,
+      "width": 90,
+      "height": 45,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#78350f"
+    },
+
+    {
+      "id": "living_sofa_main",
+      "type": "sofa",
+      "label": "Luxury Sectional Couch",
+      "x": 380,
+      "y": 660,
+      "width": 240,
+      "height": 70,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#065f46"
+    },
+    {
+      "id": "living_coffee_table",
+      "type": "coffee_table",
+      "label": "Glass Coffee Table",
+      "x": 430,
+      "y": 600,
+      "width": 140,
+      "height": 45,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#0284c7"
+    },
+    {
+      "id": "living_tv_unit",
+      "type": "tv_unit",
+      "label": "85-inch 4K Smart TV & Soundbar",
+      "x": 420,
+      "y": 500,
+      "width": 160,
+      "height": 30,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#0f172a"
+    },
+    {
+      "id": "living_rug",
+      "type": "rug",
+      "label": "Living Room Persian Rug",
+      "x": 350,
+      "y": 560,
+      "width": 300,
+      "height": 200,
+      "isSolid": false,
+      "isAcousticObstacle": false,
+      "color": "#334155"
+    },
+
+    {
+      "id": "kitchen_island",
+      "type": "kitchen_counter",
+      "label": "Granite Kitchen Island",
+      "x": 1150,
+      "y": 580,
+      "width": 160,
+      "height": 70,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#475569"
+    },
+    {
+      "id": "kitchen_main_counter",
+      "type": "kitchen_counter",
+      "label": "Cooking Counter & Stovetop",
+      "x": 1360,
+      "y": 500,
+      "width": 60,
+      "height": 260,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#334155"
+    },
+    {
+      "id": "kitchen_fridge",
+      "type": "refrigerator",
+      "label": "Double-Door Smart Fridge",
+      "x": 1360,
+      "y": 780,
+      "width": 60,
+      "height": 70,
+      "isSolid": true,
+      "isAcousticObstacle": true,
+      "color": "#94a3b8"
+    },
+    {
+      "id": "dining_table",
+      "type": "dining_table",
+      "label": "6-Person Dining Table",
+      "x": 800,
+      "y": 580,
+      "width": 160,
+      "height": 90,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#b45309"
+    },
+
+    {
+      "id": "office_desk",
+      "type": "desk",
+      "label": "Executive Dual-Monitor Workstation",
+      "x": 1240,
+      "y": 200,
+      "width": 160,
+      "height": 70,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#1e293b"
+    },
+    {
+      "id": "office_bookshelf",
+      "type": "bookshelf",
+      "label": "Wall Bookshelf",
+      "x": 1140,
+      "y": 100,
+      "width": 260,
+      "height": 40,
+      "isSolid": true,
+      "isAcousticObstacle": true,
+      "color": "#78350f"
+    },
+
+    {
+      "id": "bathroom_tub",
+      "type": "bathtub",
+      "label": "Porcelain Bathtub",
+      "x": 140,
+      "y": 520,
+      "width": 110,
+      "height": 60,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#e2e8f0"
+    },
+    {
+      "id": "bathroom_vanity",
+      "type": "kitchen_counter",
+      "label": "Vanity Sink & Mirror",
+      "x": 140,
+      "y": 620,
+      "width": 90,
+      "height": 45,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#0ea5e9"
+    },
+
+    {
+      "id": "patio_plant_1",
+      "type": "plant",
+      "label": "Tropical Palm",
+      "x": 720,
+      "y": 850,
+      "width": 45,
+      "height": 45,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#16a34a"
+    },
+    {
+      "id": "patio_plant_2",
+      "type": "plant",
+      "label": "Ficus Bush",
+      "x": 880,
+      "y": 850,
+      "width": 45,
+      "height": 45,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#16a34a"
+    },
+    {
+      "id": "living_plant_corner",
+      "type": "plant",
+      "label": "Living Room Monster Palm",
+      "x": 100,
+      "y": 850,
+      "width": 40,
+      "height": 40,
+      "isSolid": true,
+      "isAcousticObstacle": false,
+      "color": "#15803d"
+    }
+  ]
+}
+

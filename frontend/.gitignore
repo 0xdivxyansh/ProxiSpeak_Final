@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production Build Output (handled by GitHub Actions or gh-pages)
+dist/
+dist-ssr/
+*.local
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Logs & Diagnostics
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
